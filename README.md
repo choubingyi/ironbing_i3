@@ -1,7 +1,7 @@
 Introduction
 ===
 IronBing's i3 windows manager config.
-![screenshot](https://imgur.com/uQJXB1a)
+![screenshot](https://i.imgur.com/uQJXB1a.png)
 
 Enable touchpad function for tap of click.
 ===
