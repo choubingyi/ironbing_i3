@@ -40,4 +40,9 @@ Enter shell command in terminal
 ```
 xprop
 ```
+
+## 3. Word icon
+You can copy the word which is logo picture.[Fontawesome][2]
+
 [1]: https://www.reddit.com/r/i3wm/comments/516e8c/tap_to_click_touchpad/
+[2]: https://fontawesome.com/cheatsheet
