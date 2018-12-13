@@ -29,11 +29,7 @@ font pango: monospace 10
 floating_modifier $mod
 
 # start a terminal
-<<<<<<< HEAD
 bindsym $mod+Return exec gnome-terminal
-=======
-bindsym $mod+Return exec gnome-terminal -e tmux
->>>>>>> refs/remotes/origin/master
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -102,24 +98,16 @@ set $workspace1 "1: "
 set $workspace2 "2: "
 set $workspace3 "3: "
 set $workspace4 "4: "
-<<<<<<< HEAD
 set $workspace5 "5: "
 set $workspace6 "6: "
-=======
-set $workspace5 "5: "
->>>>>>> refs/remotes/origin/master
 set $workspace9 "9: "
 set $workspace10 "10: "
 
 assign [class="Google-chrome"] $workspace1
 assign [class="Gnome-terminal"] $workspace2
 assign [class="Nautilus"] $workspace4
-<<<<<<< HEAD
 assign [class="Evolution"] $workspace5
 assign [class="VirtualBox Manager"] $workspace6
-=======
-assign [class="VirtualBox Manager"] $workspace5
->>>>>>> refs/remotes/origin/master
 assign [class="Stardict"] $workspace9
 assign [class="Blueman-manager"] $workspace10
 
@@ -129,11 +117,7 @@ bindsym $mod+2 workspace $workspace2
 bindsym $mod+3 workspace $workspace3
 bindsym $mod+4 workspace $workspace4
 bindsym $mod+5 workspace $workspace5
-<<<<<<< HEAD
 bindsym $mod+6 workspace $workspace6
-=======
-bindsym $mod+6 workspace 6
->>>>>>> refs/remotes/origin/master
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace $workspace9
@@ -145,11 +129,7 @@ bindsym $mod+Shift+2 move container to workspace $workspace2
 bindsym $mod+Shift+3 move container to workspace $workspace3
 bindsym $mod+Shift+4 move container to workspace $workspace4
 bindsym $mod+Shift+5 move container to workspace $workspace5
-<<<<<<< HEAD
 bindsym $mod+Shift+6 move container to workspace $workspace6
-=======
-bindsym $mod+Shift+6 move container to workspace 6
->>>>>>> refs/remotes/origin/master
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace $workspace9
@@ -223,7 +203,6 @@ bindsym $mod+d exec dmenu_run -nb black -sb tomato -l 10
 # lock
 bindsym $mod+Shift+x exec /home/ironbing/.config/i3/scripts/lock.sh /home/ironbing/Pictures/key-512.png
 
-<<<<<<< HEAD
 # Open appstore
 bindsym $mod+i exec io.elementary.appcentor
 
@@ -232,10 +211,6 @@ bindsym $mod+p exec pidgin
 
 # Pulse Audio controls
 set $sink `pactl list short sinks | grep RUNNING | cut -f1`
-=======
-set $sink `pactl list short sinks | grep RUNNING | cut -f1`
-# Pulse Audio controls
->>>>>>> refs/remotes/origin/master
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume $sink +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume $sink -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $sink toggle # mute sound
@@ -252,10 +227,7 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym $mod+Print exec gnome-screenshot -i
 
 # startup
-<<<<<<< HEAD
 exec --no-startup-id evolution
-=======
->>>>>>> refs/remotes/origin/master
 exec --no-startup-id ibus-daemon
 exec --no-startup-id blueman-manager
 exec --no-startup-id stardict
