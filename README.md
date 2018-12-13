@@ -40,7 +40,3 @@ Enter shell command in terminal
 ```
 xprop
 ```
-
-Reference
-===
-1. [1]: https://www.reddit.com/r/i3wm/comments/516e8c/tap_to_click_touchpad/
